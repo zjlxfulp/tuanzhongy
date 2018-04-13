@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>团中央2</title>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="">
+    <input value="点击" style="width:20%;" type="submit" id="login">
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span id="span2"></span>
+</body>
+<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+    $('form').submit(function () {
+        return false;
+    });
+
+    $('#login').click(function(){
+        var temp_id = getUrlParam('temp_id');
+        var url;
+        if(temp_id) {
+            var redirect = encodeURIComponent('http://tzy.xiaoxiao.la/oauth.html');
+            url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxcf240749deef1a41&redirect_uri='+redirect+'&response_type=code&scope=snsapi_base&state='+temp_id+'#wechat_redirect';
+            window.location.href = url;
+        }
+    });
+    //url = https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=xxx
+    var auth_code = getUrlParam('code');
+    if(auth_code) {
+        var state = getUrlParam('state');
+        var login_url = 'http://tzy.xiaoxiao.la/wechat_login';
+        $.ajax({
+            url:login_url,
+            data:{"temp_id":state,"auth_code":auth_code},
+            success:function(data){
+                if(data.data) {
+                    $('body').html('<span>登录成功!</span>');
+                }
+            },
+            dataType : "json",
+            async:true,
+            timeout:3000
+        })
+    }
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+</script>
+</html>

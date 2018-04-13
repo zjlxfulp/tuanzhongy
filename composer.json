@@ -1,0 +1,23 @@
+{
+    "require": {
+            "workerman/gateway-worker": "^3.0",
+        "yunify/qingstor-sdk": "^2.2",
+        "chillerlan/php-qrcode": "^1.2"
+    },
+    "config": {
+        "secure-http": false
+    },
+    "autoload": {
+        "files": [
+            "./Applications/Systems/Common/Functions.php",
+            "./Applications/Systems/Common/Common.php",
+            "./Applications/Systems/Common/Constants.php"
+        ],
+        "psr-4": {
+            "Core\\": "./Applications/Systems/Core/",
+            "Common\\": "./Applications/Systems/Common/",
+            "Api\\": "./Applications/Api/",
+            "Admin\\": "./Applications/Admin/"
+        }
+    }
+}
