@@ -51,7 +51,7 @@ class App
     public static function allow_origin() {
         $allow_origin = array(
             'http://127.0.0.1',
-            'http://172.20.0.9',
+            'http://192.168.99.231',
             'http://l.weidan.com:8000',
             'http://localhost',
             'http://t.bigfacetech.com',
