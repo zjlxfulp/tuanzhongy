@@ -101,12 +101,12 @@ class Home extends Base
     {
         $temp_id = $this->input->get_post('temp_id');
         $login_info = json_decode($this->redis->get($temp_id),true);
-        $result['status'] = 0;
+        $status = 0;
         if($login_info) {
-            $result['status'] = 1;
+            $status = 1;
             Gateway::sendToClient($login_info['client_id'],'ok');
         }
-        Output::json($result);
+        Output::json($status);
     }
 
 
