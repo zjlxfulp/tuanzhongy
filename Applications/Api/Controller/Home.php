@@ -89,13 +89,9 @@ class Home extends Base
         $result = array();
         if($login_info) {
             $rs = $this->snsapi_base($auth_code);
-            if($rs) {
-                $login_info = json_decode($login_info,true);
-                if(isset($login_info['client_id'])) {
-                    Gateway::sendToClient($login_info['client_id'],'ok');
-                    $result['token'] = $login_info['token'];
-                    //存储token
-                }
+            if(isset($rs['openid'])) {
+                $result = json_decode($rs,true);
+                Gateway::sendToClient($login_info['client_id'],'ok');
             }
         }
 
@@ -137,22 +133,23 @@ class Home extends Base
 
     private function snsapi_base($CODE)
     {
-        $url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid='.self::$AppID.'&secret='.self::$AppSecret.'&code='.$CODE.'&grant_type=authorization_code';
+        $url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx829ddb465b7916e4&secret=34525f5d71f54fbab01dd9de982ac9d1&code='.$CODE.'&grant_type=authorization_code';
         $result = $this->http($url);
-        $rs = false;
-        if(isset($result['openid'])) {
-            $info = $this->db->row("select `id` from `wechat_user` WHERE `openid` = '{$result['openid']}' AND `is_deleted` = 0 ");
-            $date = time();
-            if($info['id']) {
-                $rs = $this->db->query("update `wechat_user` set `update_date` = {$date} WHERE `id` = {$info['id']} ");
-            }else{
-                $rs = $this->db->query("insert into `wechat_user` (`openid`,`update_date`,`create_date`) VALUES ('{$result['openid']}',{$date},{$date})");
-            }
-            if($rs) {
-                $rs = true;
-            }
-        }
-        return $rs;
+        return $result;
+//        $rs = false;
+//        if(isset($result['openid'])) {
+//            $info = $this->db->row("select `id` from `wechat_user` WHERE `openid` = '{$result['openid']}' AND `is_deleted` = 0 ");
+//            $date = time();
+//            if($info['id']) {
+//                $rs = $this->db->query("update `wechat_user` set `update_date` = {$date} WHERE `id` = {$info['id']} ");
+//            }else{
+//                $rs = $this->db->query("insert into `wechat_user` (`openid`,`update_date`,`create_date`) VALUES ('{$result['openid']}',{$date},{$date})");
+//            }
+//            if($rs) {
+//                $rs = true;
+//            }
+//        }
+//        return $rs;
     }
 
     //群发-存在微信历史消息中 (认证,48003 不允许群发 48001没有认证)

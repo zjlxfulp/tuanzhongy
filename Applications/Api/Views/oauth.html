@@ -31,8 +31,8 @@
         var temp_id = getUrlParam('temp_id');
         var url;
         if(temp_id) {
-            var redirect = encodeURIComponent('http://tzy.xiaoxiao.la/oauth.html');
-            url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxcf240749deef1a41&redirect_uri='+redirect+'&response_type=code&scope=snsapi_base&state='+temp_id+'#wechat_redirect';
+            var redirect = encodeURIComponent('http://192.168.99.231/oauth.html');
+            url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx829ddb465b7916e4&redirect_uri='+redirect+'&response_type=code&scope=snsapi_base&state='+temp_id+'#wechat_redirect';
             window.location.href = url;
         }
     });
@@ -40,7 +40,7 @@
     var auth_code = getUrlParam('code');
     if(auth_code) {
         var state = getUrlParam('state');
-        var login_url = 'http://tzy.xiaoxiao.la/wechat_login';
+        var login_url = 'http://192.168.99.231/wechat_login';
         $.ajax({
             url:login_url,
             data:{"temp_id":state,"auth_code":auth_code},

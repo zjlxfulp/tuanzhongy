@@ -41,33 +41,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="330">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="e#33#55#0#PHP" expanded="true" />
-                <marker date="1523625422594" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
-                <marker date="1523625422594" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
-                <marker date="1523625422594" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
-                <marker date="1523625422594" expanded="true" signature="4716:4806" ph="select `id` wechat_user" />
-                <marker date="1523625422594" expanded="true" signature="4909:4971" ph="update `wech... " />
-                <marker date="1523625422594" expanded="true" signature="5048:5159" ph="insert into `wechat_user`... " />
-                <marker date="1523625422594" expanded="true" signature="10410:10515" ph="select `refr... wechat_public" />
-                <marker date="1523625422594" expanded="true" signature="12318:12412" ph="select `id` wechat_public" />
-                <marker date="1523625422594" expanded="true" signature="12725:13151" ph="update `wech... " />
-                <marker date="1523625422594" expanded="true" signature="13215:13659" ph="insert into `wechat_public`... " />
+                <marker date="1523627893857" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
+                <marker date="1523627893857" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
+                <marker date="1523627893857" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
+                <marker date="1523627893857" expanded="true" signature="4598:4688" ph="select `id` wechat_user" />
+                <marker date="1523627893857" expanded="true" signature="4797:4859" ph="update `wech... " />
+                <marker date="1523627893857" expanded="true" signature="4940:5051" ph="insert into `wechat_user`... " />
+                <marker date="1523627893857" expanded="true" signature="10314:10419" ph="select `refr... wechat_public" />
+                <marker date="1523627893857" expanded="true" signature="12222:12316" ph="select `id` wechat_public" />
+                <marker date="1523627893857" expanded="true" signature="12629:13055" ph="update `wech... " />
+                <marker date="1523627893857" expanded="true" signature="13119:13563" ph="insert into `wechat_public`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Applications/Api/Views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="44" column="101" selection-start-line="44" selection-start-column="96" selection-end-line="44" selection-end-column="101" />
+            <state relative-caret-position="467">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oauth.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Applications/Api/Views/oauth.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="34" column="95" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -76,8 +86,8 @@
       <file leaf-file-name="Events.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Start/Websocket/Events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="440">
+              <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -102,8 +112,9 @@
         <option value="$PROJECT_DIR$/start.php" />
         <option value="$PROJECT_DIR$/Applications/Systems/Core/Redis.php" />
         <option value="$PROJECT_DIR$/Applications/Systems/Common/Config/App.php" />
-        <option value="$PROJECT_DIR$/Applications/Api/Controller/Home.php" />
         <option value="$PROJECT_DIR$/Applications/Api/Views/index.html" />
+        <option value="$PROJECT_DIR$/Applications/Api/Views/oauth.html" />
+        <option value="$PROJECT_DIR$/Applications/Api/Controller/Home.php" />
       </list>
     </option>
   </component>
@@ -340,12 +351,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523611833522</updated>
-      <workItem from="1523611834960" duration="7518000" />
+      <workItem from="1523611834960" duration="8729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7518000" />
+    <option name="totallyTimeSpent" value="8729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -671,39 +682,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/workerman/gateway-worker/src/Lib/Gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Start/Websocket/Events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="440">
+          <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1496417067878" expanded="true" signature="89:171" ph="SELECT `sing... retail_single_goods" />
+            <marker date="1496417067878" expanded="true" signature="403:589" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="611:784" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="806:967" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="989:1193" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="1215:1370" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="1392:1566" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="1588:1647" ph="UPDATE `cine... " />
+            <marker date="1496417067878" expanded="true" signature="1669:1713" ph="DELETE FROM " />
+            <marker date="1496417067878" expanded="true" signature="1735:1766" ph="DELETE FROM " />
+            <marker date="1496417067878" expanded="true" signature="1806:1957" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="1979:2120" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="2139:2246" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="2268:2445" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="2467:2593" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="2615:2737" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="2773:2895" ph="SELECT `reta... retail_categories_son" />
+            <marker date="1496417067878" expanded="true" signature="2991:3123" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="3185:3304" ph="SELECT `good... retail_goods_categories" />
+            <marker date="1496417067878" expanded="true" signature="3404:3533" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="3590:3684" ph="SELECT `pack... retail_package_info" />
+            <marker date="1496417067878" expanded="true" signature="3780:3884" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="3932:4030" ph="SELECT `pack... retail_package_info" />
+            <marker date="1496417067878" expanded="true" signature="4126:4234" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="4282:4374" ph="SELECT `sale... retail_sale_key_cate" />
+            <marker date="1496417067878" expanded="true" signature="4476:4578" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="4631:4732" ph="SELECT `shel... retail_shelf_setting" />
+            <marker date="1496417067878" expanded="true" signature="4822:4933" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="4987:5086" ph="SELECT `sing... retail_single_goods" />
+            <marker date="1496417067878" expanded="true" signature="5190:5299" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="5352:5451" ph="SELECT `sing... retail_single_goods" />
+            <marker date="1496417067878" expanded="true" signature="5555:5664" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="5717:5829" ph="SELECT `cine... cinema_sell_ratio_map" />
+            <marker date="1496417067878" expanded="true" signature="5933:6053" ph="UPDATE `cine... " />
+            <marker date="1496417067878" expanded="true" signature="6133:6179" ph="SELECT * FRO... retail_category_shelf_relation" />
+            <marker date="1496417067878" expanded="true" signature="6301:6638" ph="INSERT INTO `retail_category_shelf_relation`... " />
+            <marker date="1496417067878" expanded="true" signature="6662:6695" ph="SELECT * FRO... retail_user_shelf" />
+            <marker date="1496417067878" expanded="true" signature="6793:7188" ph="INSERT INTO `retail_user_shelf`... " />
+            <marker date="1496417067878" expanded="true" signature="7525:7661" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="7797:7925" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="8063:8188" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="8322:8485" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="8620:8733" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="8867:9000" ph="UPDATE `reta... " />
+            <marker date="1496417067878" expanded="true" signature="9134:9178" ph="DELETE FROM " />
+            <marker date="1496417067878" expanded="true" signature="9323:9354" ph="DELETE FROM " />
+            <marker date="1496417067878" expanded="true" signature="9487:9546" ph="UPDATE `cine... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Api/Views/oauth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="34" column="95" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Api/Views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="e#33#55#0#PHP" expanded="true" />
-            <marker date="1523625422594" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
-            <marker date="1523625422594" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
-            <marker date="1523625422594" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
-            <marker date="1523625422594" expanded="true" signature="4716:4806" ph="select `id` wechat_user" />
-            <marker date="1523625422594" expanded="true" signature="4909:4971" ph="update `wech... " />
-            <marker date="1523625422594" expanded="true" signature="5048:5159" ph="insert into `wechat_user`... " />
-            <marker date="1523625422594" expanded="true" signature="10410:10515" ph="select `refr... wechat_public" />
-            <marker date="1523625422594" expanded="true" signature="12318:12412" ph="select `id` wechat_public" />
-            <marker date="1523625422594" expanded="true" signature="12725:13151" ph="update `wech... " />
-            <marker date="1523625422594" expanded="true" signature="13215:13659" ph="insert into `wechat_public`... " />
+            <marker date="1523627893857" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
+            <marker date="1523627893857" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
+            <marker date="1523627893857" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
+            <marker date="1523627893857" expanded="true" signature="4598:4688" ph="select `id` wechat_user" />
+            <marker date="1523627893857" expanded="true" signature="4797:4859" ph="update `wech... " />
+            <marker date="1523627893857" expanded="true" signature="4940:5051" ph="insert into `wechat_user`... " />
+            <marker date="1523627893857" expanded="true" signature="10314:10419" ph="select `refr... wechat_public" />
+            <marker date="1523627893857" expanded="true" signature="12222:12316" ph="select `id` wechat_public" />
+            <marker date="1523627893857" expanded="true" signature="12629:13055" ph="update `wech... " />
+            <marker date="1523627893857" expanded="true" signature="13119:13563" ph="insert into `wechat_public`... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Applications/Api/Views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="44" column="101" selection-start-line="44" selection-start-column="96" selection-end-line="44" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
