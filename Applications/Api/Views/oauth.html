@@ -34,8 +34,10 @@
             url:login_url,
             data:{"temp_id":state},
             success:function(data){
-                if(data.data) {
+                if(data.status == 1) {
                     $('body').html('<span>登录成功!</span>');
+                }else{
+                    $('body').html('<span>登录失败!</span>');
                 }
             },
             dataType : "json",

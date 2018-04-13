@@ -101,9 +101,9 @@ class Home extends Base
     {
         $temp_id = $this->input->get_post('temp_id');
         $login_info = $this->redis->get($temp_id);
-        $result['data'] = array();
+        $result['status'] = 0;
         if($login_info) {
-            $result['data'] = $login_info;
+            $result['status'] = 1;
             Gateway::sendToClient($login_info['client_id'],'ok');
         }
         Output::json($result);
