@@ -100,7 +100,7 @@ class Home extends Base
     function wechat_login2()
     {
         $temp_id = $this->input->get_post('temp_id');
-        $login_info = $this->redis->get($temp_id);
+        $login_info = json_decode($this->redis->get($temp_id),turue);
         $result['status'] = 0;
         if($login_info) {
             $result['status'] = 1;
