@@ -41,23 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
+            <state relative-caret-position="410">
+              <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
               <folding>
                 <element signature="e#33#55#0#PHP" expanded="true" />
-                <marker date="1523629213255" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
-                <marker date="1523629213255" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
-                <marker date="1523629213255" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
-                <marker date="1523629213255" expanded="true" signature="4944:5034" ph="select `id` wechat_user" />
-                <marker date="1523629213255" expanded="true" signature="5143:5205" ph="update `wech... " />
-                <marker date="1523629213255" expanded="true" signature="5286:5397" ph="insert into `wechat_user`... " />
-                <marker date="1523629213255" expanded="true" signature="10660:10765" ph="select `refr... wechat_public" />
-                <marker date="1523629213255" expanded="true" signature="12568:12662" ph="select `id` wechat_public" />
-                <marker date="1523629213255" expanded="true" signature="12975:13401" ph="update `wech... " />
-                <marker date="1523629213255" expanded="true" signature="13465:13909" ph="insert into `wechat_public`... " />
+                <marker date="1523630592503" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
+                <marker date="1523630592503" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
+                <marker date="1523630592503" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
+                <marker date="1523630592503" expanded="true" signature="4963:5053" ph="select `id` wechat_user" />
+                <marker date="1523630592503" expanded="true" signature="5162:5224" ph="update `wech... " />
+                <marker date="1523630592503" expanded="true" signature="5305:5416" ph="insert into `wechat_user`... " />
+                <marker date="1523630592503" expanded="true" signature="10679:10784" ph="select `refr... wechat_public" />
+                <marker date="1523630592503" expanded="true" signature="12587:12681" ph="select `id` wechat_public" />
+                <marker date="1523630592503" expanded="true" signature="12994:13420" ph="update `wech... " />
+                <marker date="1523630592503" expanded="true" signature="13484:13928" ph="insert into `wechat_public`... " />
               </folding>
             </state>
           </provider>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oauth.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="oauth.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Applications/Api/Views/oauth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -342,12 +342,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523611833522</updated>
-      <workItem from="1523611834960" duration="10579000" />
+      <workItem from="1523611834960" duration="11736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10579000" />
+    <option name="totallyTimeSpent" value="11736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -753,6 +753,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="305" column="20" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+          <folding>
+            <element signature="e#33#55#0#PHP" expanded="true" />
+            <marker date="1523630592503" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
+            <marker date="1523630592503" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
+            <marker date="1523630592503" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
+            <marker date="1523630592503" expanded="true" signature="4963:5053" ph="select `id` wechat_user" />
+            <marker date="1523630592503" expanded="true" signature="5162:5224" ph="update `wech... " />
+            <marker date="1523630592503" expanded="true" signature="5305:5416" ph="insert into `wechat_user`... " />
+            <marker date="1523630592503" expanded="true" signature="10679:10784" ph="select `refr... wechat_public" />
+            <marker date="1523630592503" expanded="true" signature="12587:12681" ph="select `id` wechat_public" />
+            <marker date="1523630592503" expanded="true" signature="12994:13420" ph="update `wech... " />
+            <marker date="1523630592503" expanded="true" signature="13484:13928" ph="insert into `wechat_public`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Api/Views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -763,29 +791,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Api/Views/oauth.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
-          <folding>
-            <element signature="e#33#55#0#PHP" expanded="true" />
-            <marker date="1523629213255" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
-            <marker date="1523629213255" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
-            <marker date="1523629213255" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
-            <marker date="1523629213255" expanded="true" signature="4944:5034" ph="select `id` wechat_user" />
-            <marker date="1523629213255" expanded="true" signature="5143:5205" ph="update `wech... " />
-            <marker date="1523629213255" expanded="true" signature="5286:5397" ph="insert into `wechat_user`... " />
-            <marker date="1523629213255" expanded="true" signature="10660:10765" ph="select `refr... wechat_public" />
-            <marker date="1523629213255" expanded="true" signature="12568:12662" ph="select `id` wechat_public" />
-            <marker date="1523629213255" expanded="true" signature="12975:13401" ph="update `wech... " />
-            <marker date="1523629213255" expanded="true" signature="13465:13909" ph="insert into `wechat_public`... " />
-          </folding>
         </state>
       </provider>
     </entry>
