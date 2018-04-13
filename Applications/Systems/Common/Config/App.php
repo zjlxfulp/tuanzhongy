@@ -52,7 +52,7 @@ class App
         $allow_origin = array(
             'http://127.0.0.1',
             'http://192.168.99.231',
-            'http://l.weidan.com:8000',
+            'http://192.168.99.23',
             'http://localhost',
             'http://t.bigfacetech.com',
             'http://xiaoxiaoceshi.com'
