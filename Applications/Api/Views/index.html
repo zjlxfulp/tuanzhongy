@@ -29,12 +29,12 @@
         return false;
     });
     $('#login').click(function(){
-        var url = 'http://192.168.99.23/get_auth_code';
+        var url = 'http://192.168.99.2311/get_auth_code';
         $.ajax({
             url:url,
             success:function(data){
                 var pre_auth_code = data.data.pre_auth_code;
-                callback_url = 'https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wxe58a18ab65e68e0b&pre_auth_code='+pre_auth_code+'&redirect_uri=http://192.168.99.23/index.html';
+                callback_url = 'https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wxe58a18ab65e68e0b&pre_auth_code='+pre_auth_code+'&redirect_uri=http://192.168.99.2311/index.html';
                 window.location.href = callback_url;
             },
             dataType : "json",
@@ -53,7 +53,7 @@
         if (r != null) return unescape(r[2]); return null;
     }
 
-    var qrcode_url = 'http://192.168.99.23/qrcode';
+    var qrcode_url = 'http://192.168.99.2311/qrcode';
     $.ajax({
         url:qrcode_url,
         success:function(data){
@@ -69,7 +69,7 @@
 
     var socket;
     function connect() {
-        socket = new WebSocket("ws://192.168.99.23:8000");
+        socket = new WebSocket("ws://192.168.99.2311:8000");
         socket.onopen = onopen;
         socket.onmessage = onmessage;
         socket.onclose = onclose;
