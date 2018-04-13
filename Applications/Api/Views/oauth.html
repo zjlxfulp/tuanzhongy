@@ -28,7 +28,7 @@
         return false;
     });
     $('#login2').click(function(){
-        var state = getUrlParam('state');
+        var state = getUrlParam('temp_id');
         var login_url = 'http://192.168.99.231/wechat_login2';
         $.ajax({
             url:login_url,
