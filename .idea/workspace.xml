@@ -53,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_gateway.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start_gateway.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Start2/start_gateway.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/start.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -101,11 +111,11 @@
         <option value="$PROJECT_DIR$/Chat/start_register.php" />
         <option value="$PROJECT_DIR$/Chat/start_businessworker.php" />
         <option value="$PROJECT_DIR$/Chat/start_gateway.php" />
-        <option value="$PROJECT_DIR$/start.php" />
         <option value="$PROJECT_DIR$/Start2/start_web.php" />
         <option value="$PROJECT_DIR$/Start2/start_businessworker.php" />
         <option value="$PROJECT_DIR$/Start2/start_register.php" />
         <option value="$PROJECT_DIR$/Start2/start_gateway.php" />
+        <option value="$PROJECT_DIR$/start.php" />
       </list>
     </option>
   </component>
@@ -272,12 +282,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523611833522</updated>
-      <workItem from="1523611834960" duration="16286000" />
+      <workItem from="1523611834960" duration="16314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16286000" />
+    <option name="totallyTimeSpent" value="16314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -717,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -787,6 +789,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
           <folding />
         </state>
       </provider>
