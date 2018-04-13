@@ -94,9 +94,21 @@ class Home extends Base
                 Gateway::sendToClient($login_info['client_id'],'ok');
             }
         }
-
         Output::json($result);
     }
+
+    function wechat_login2()
+    {
+        $temp_id = $this->input->get_post('temp_id');
+        $login_info = $this->redis->get($temp_id);
+        $result['data'] = array();
+        if($login_info) {
+            $result['data'] = $login_info;
+            Gateway::sendToClient($login_info['client_id'],'ok');
+        }
+        Output::json($result);
+    }
+
 
 
     public function qrcode()

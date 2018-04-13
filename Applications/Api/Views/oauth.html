@@ -12,7 +12,8 @@
 <br>
 <br>
 <form action="">
-    <input value="点击" style="width:20%;" type="submit" id="login">
+    <input value="微信登录" style="width:20%;" type="submit" id="login">
+    <input value="普通登录" style="width:20%;" type="submit" id="login2">
 </form>
 <br>
 <br>
@@ -26,7 +27,22 @@
     $('form').submit(function () {
         return false;
     });
-
+    $('#login2').click(function(){
+        var state = getUrlParam('state');
+        var login_url = 'http://192.168.99.231/wechat_login2';
+        $.ajax({
+            url:login_url,
+            data:{"temp_id":state},
+            success:function(data){
+                if(data.data) {
+                    $('body').html('<span>登录成功!</span>');
+                }
+            },
+            dataType : "json",
+            async:true,
+            timeout:3000
+        })
+    });
     $('#login').click(function(){
         var temp_id = getUrlParam('temp_id');
         var url;
