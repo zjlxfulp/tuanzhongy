@@ -44,20 +44,20 @@
       <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="154">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
                 <element signature="e#33#55#0#PHP" expanded="true" />
-                <marker date="1514534450510" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
-                <marker date="1514534450510" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
-                <marker date="1514534450510" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
-                <marker date="1514534450510" expanded="true" signature="4989:5079" ph="select `id` wechat_user" />
-                <marker date="1514534450510" expanded="true" signature="5182:5244" ph="update `wech... " />
-                <marker date="1514534450510" expanded="true" signature="5321:5432" ph="insert into `wechat_user`... " />
-                <marker date="1514534450510" expanded="true" signature="10683:10788" ph="select `refr... wechat_public" />
-                <marker date="1514534450510" expanded="true" signature="12591:12685" ph="select `id` wechat_public" />
-                <marker date="1514534450510" expanded="true" signature="12998:13424" ph="update `wech... " />
-                <marker date="1514534450510" expanded="true" signature="13488:13932" ph="insert into `wechat_public`... " />
+                <marker date="1523625422594" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
+                <marker date="1523625422594" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
+                <marker date="1523625422594" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
+                <marker date="1523625422594" expanded="true" signature="4716:4806" ph="select `id` wechat_user" />
+                <marker date="1523625422594" expanded="true" signature="4909:4971" ph="update `wech... " />
+                <marker date="1523625422594" expanded="true" signature="5048:5159" ph="insert into `wechat_user`... " />
+                <marker date="1523625422594" expanded="true" signature="10410:10515" ph="select `refr... wechat_public" />
+                <marker date="1523625422594" expanded="true" signature="12318:12412" ph="select `id` wechat_public" />
+                <marker date="1523625422594" expanded="true" signature="12725:13151" ph="update `wech... " />
+                <marker date="1523625422594" expanded="true" signature="13215:13659" ph="insert into `wechat_public`... " />
               </folding>
             </state>
           </provider>
@@ -66,9 +66,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Applications/Api/Views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="506">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +95,7 @@
         <option value="$PROJECT_DIR$/Applications/Systems/Core/Redis.php" />
         <option value="$PROJECT_DIR$/Applications/Systems/Common/Config/App.php" />
         <option value="$PROJECT_DIR$/Applications/Api/Views/index.html" />
+        <option value="$PROJECT_DIR$/Applications/Api/Controller/Home.php" />
       </list>
     </option>
   </component>
@@ -329,16 +332,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523611833522</updated>
-      <workItem from="1523611834960" duration="5106000" />
+      <workItem from="1523611834960" duration="6272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5106000" />
+    <option name="totallyTimeSpent" value="6272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -347,7 +350,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20476706" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20476706" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -663,29 +666,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Api/Controller/Home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="154">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
           <folding>
             <element signature="e#33#55#0#PHP" expanded="true" />
-            <marker date="1514534450510" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
-            <marker date="1514534450510" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
-            <marker date="1514534450510" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
-            <marker date="1514534450510" expanded="true" signature="4989:5079" ph="select `id` wechat_user" />
-            <marker date="1514534450510" expanded="true" signature="5182:5244" ph="update `wech... " />
-            <marker date="1514534450510" expanded="true" signature="5321:5432" ph="insert into `wechat_user`... " />
-            <marker date="1514534450510" expanded="true" signature="10683:10788" ph="select `refr... wechat_public" />
-            <marker date="1514534450510" expanded="true" signature="12591:12685" ph="select `id` wechat_public" />
-            <marker date="1514534450510" expanded="true" signature="12998:13424" ph="update `wech... " />
-            <marker date="1514534450510" expanded="true" signature="13488:13932" ph="insert into `wechat_public`... " />
+            <marker date="1523625422594" expanded="true" signature="1839:2034" ph="select `id`,... wechat_public" />
+            <marker date="1523625422594" expanded="true" signature="1948:2033" ph="select `publ... wechat_relation" />
+            <marker date="1523625422594" expanded="true" signature="2567:2665" ph="insert into `wechat_invite`... " />
+            <marker date="1523625422594" expanded="true" signature="4716:4806" ph="select `id` wechat_user" />
+            <marker date="1523625422594" expanded="true" signature="4909:4971" ph="update `wech... " />
+            <marker date="1523625422594" expanded="true" signature="5048:5159" ph="insert into `wechat_user`... " />
+            <marker date="1523625422594" expanded="true" signature="10410:10515" ph="select `refr... wechat_public" />
+            <marker date="1523625422594" expanded="true" signature="12318:12412" ph="select `id` wechat_public" />
+            <marker date="1523625422594" expanded="true" signature="12725:13151" ph="update `wech... " />
+            <marker date="1523625422594" expanded="true" signature="13215:13659" ph="insert into `wechat_public`... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Api/Views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="506">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

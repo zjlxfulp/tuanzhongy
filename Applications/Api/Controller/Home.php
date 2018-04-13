@@ -105,20 +105,8 @@ class Home extends Base
 
     public function qrcode()
     {
-        $type = $this->input->get_post('type');
-        $result = array();
-        switch ($type) {
-            case 'oauth':
-                $url = 'http://tzy.xiaoxiao.la/oauth.html?temp_id=';
-                break;
-
-            default:
-                $url = '';
-                break;
-        }
-        if($url) {
-            $result = $this->create_qrcode($url);
-        }
+        $url = 'http://192.168.99.231/oauth.html?temp_id=';
+        $result = $this->create_qrcode($url);
         Output::json($result);
     }
 
