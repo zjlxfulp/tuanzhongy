@@ -11,9 +11,9 @@
 <br>
 <br>
 <br>
-<form action="">
-    <input value="点击" style="width:20%;" type="submit" id="login">
-</form>
+<!--<form action="">-->
+    <!--<input value="点击" style="width:20%;" type="submit" id="login">-->
+<!--</form>-->
 <br>
 <br>
 <br>
@@ -25,33 +25,33 @@
 <script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="./web_socket.js"></script>
 <script type="text/javascript">
-    $('form').submit(function () {
-        return false;
-    });
-    $('#login').click(function(){
-        var url = 'http://192.168.99.231/get_auth_code';
-        $.ajax({
-            url:url,
-            success:function(data){
-                var pre_auth_code = data.data.pre_auth_code;
-                callback_url = 'https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wxe58a18ab65e68e0b&pre_auth_code='+pre_auth_code+'&redirect_uri=http://192.168.99.231/index.html';
-                window.location.href = callback_url;
-            },
-            dataType : "json",
-            async:true,
-            timeout:3000
-        })
-    });
+//    $('form').submit(function () {
+//        return false;
+//    });
+//    $('#login').click(function(){
+//        var url = 'http://192.168.99.231/get_auth_code';
+//        $.ajax({
+//            url:url,
+//            success:function(data){
+//                var pre_auth_code = data.data.pre_auth_code;
+//                callback_url = 'https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wxe58a18ab65e68e0b&pre_auth_code='+pre_auth_code+'&redirect_uri=http://192.168.99.231/index.html';
+//                window.location.href = callback_url;
+//            },
+//            dataType : "json",
+//            async:true,
+//            timeout:3000
+//        })
+//    });
     //url = https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=xxx
-    var auth_code = getUrlParam('auth_code');
-    if(auth_code) {
-        $('#span2').html(auth_code);
-    }
-    function getUrlParam(name) {
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-        var r = window.location.search.substr(1).match(reg);
-        if (r != null) return unescape(r[2]); return null;
-    }
+//    var auth_code = getUrlParam('auth_code');
+//    if(auth_code) {
+//        $('#span2').html(auth_code);
+//    }
+//    function getUrlParam(name) {
+//        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+//        var r = window.location.search.substr(1).match(reg);
+//        if (r != null) return unescape(r[2]); return null;
+//    }
 
     var qrcode_url = 'http://192.168.99.231/qrcode';
     $.ajax({
