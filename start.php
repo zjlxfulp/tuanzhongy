@@ -13,7 +13,10 @@ foreach(glob(__DIR__.'/Start/start*.php') as $start_file)
 {
     require_once $start_file;
 }
-
+foreach(glob(__DIR__.'/Start2/start*.php') as $start_file)
+{
+    require_once $start_file;
+}
 //if( in_array('start',$argv) ) {
 //    $queue_name = __DIR__.'/Applications/Api/Events/Queue.php';
 //    $queue_pid = system("ps -ef | grep -v grep | grep {$queue_name} | awk '{print $2}'");
