@@ -13,4 +13,5 @@
 \Core\Router::any('/snsapi_base','Home@snsapi_base');
 \Core\Router::any('/qrcode','Home@qrcode');
 \Core\Router::any('/wechat_login','Home@wechat_login');
+\Core\Router::any('/wechat_login2','Home@wechat_login2');
 \Core\Router::any('/get_article_data','Home@get_article_data');
