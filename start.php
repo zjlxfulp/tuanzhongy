@@ -13,7 +13,7 @@ define('GLOBAL_START', 1);
 //{
 //    require_once $start_file;
 //}
-foreach(glob(__DIR__.'/Start2/start*.php') as $start_file)
+foreach(glob(__DIR__.'/Start3/start*.php') as $start_file)
 {
     require_once $start_file;
 }
